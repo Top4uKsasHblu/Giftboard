@@ -267,7 +267,7 @@ body {
         height: 146px;
         border-radius: 20px;
         background-color: #FFFFFF;
-        padding: 30px;
+        padding: 20px;
         flex-direction: column;
     }
 
@@ -512,6 +512,21 @@ body {
         color: black;
     }
 
+    .sgn-btn p {
+        color: #000000;
+    }
+
+    .sgn-btn:hover {
+        background-color: #4A238C;
+        color: #FFFFFF;
+        transition: 0.5s;
+    }
+
+    .sgn-btn:hover p {
+        color: #FFFFFF;
+    }
+
+
     .sgn-btn:hover {
         background-color: #4A238C;
         color: #FFFFFF;
@@ -650,8 +665,8 @@ body {
 
     .F1-card {
         display: flex;
-        width: 340px;
-        height: 146px;
+        width: 295px;
+        height: 134px;
         border-radius: 20px;
         background-color: #FFFFFF;
         padding: 30px;
@@ -660,8 +675,12 @@ body {
     }
 
     .F1-card img {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .F1-card p {
+        height: 69px;
     }
 
     .shabloni {
