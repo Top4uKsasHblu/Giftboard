@@ -1,0 +1,765 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-image: url(img/background.svg);
+}
+
+* {
+    margin: 0px;
+}
+
+
+
+@media (min-width: 1440px) {
+    h1 {
+        font-size: 48px;
+        font-family: 'Nunito';
+        font-style: Bold;
+        line-height: 110%;
+        font-weight: 700;
+        color: #4A238C;
+    }
+
+    h2 {
+        font-size: 40px;
+        font-family: 'Nunito';
+        font-style: Bold;
+        line-height: 110%;
+        font-weight: 700;
+        color: #4A238C;
+    }
+
+    h3 {
+        font-size: 25px;
+        font-family: 'Nunito';
+        font-style: Bold;
+        line-height: 100%;
+        font-weight: 700;
+        color: #4A238C;
+    }
+
+    p {
+        font-size: 16px;
+        font-family: 'Nunito';
+        font-style: medium;
+        line-height: 150%;
+        font-weight: 500;
+        color: #4B4B4B;
+    }
+
+    p2 {
+        font-size: 16px;
+        font-family: 'Nunito';
+        font-style: SemiBold;
+        line-height: 100%;
+        font-weight: 600;
+    }
+
+    .oblaka {
+        display: flex;
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+        height: 160px;
+        object-fit: cover;
+    }
+
+    .desktop-header {
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    .wrap {
+        display: flex;
+        width: 1240px;
+        height: 50px;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .wrap img {
+        display: flex;
+        height: 50px;
+        width: 160px;
+    }
+
+    .wrap a {
+        text-decoration: none;
+    }
+
+    .F1 {
+        display: flex;
+        align-items: center;
+        color: #4A238C;
+    }
+
+    .F1-bg {
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        z-index: -1;
+        height: 794.03px;
+        object-fit: cover;
+    }
+
+    .F1 img {
+        width: 24px;
+        height: 24px;
+        margin-right: 5px;
+    }
+
+    .F1 p {
+        color: #4A238C;
+    }
+
+    .sgn-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 140px;
+        height: 50px;
+        background-color: #FCFCFB;
+        border-radius: 60px;
+        margin-left: 30px;
+    }
+
+    .sgn-btn p {
+        color: #000000;
+    }
+
+    .sgn-btn:hover {
+        background-color: #4A238C;
+        color: #FFFFFF;
+        transition: 0.5s;
+    }
+
+    .sgn-btn:hover p {
+        color: #FFFFFF;
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .conteiner-content {
+        display: flex;
+        width: 1240px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .welcome {
+        display: flex;
+        margin-top: 150px;
+        flex-wrap: wrap;
+    }
+
+    .welcome h1 {
+        width: 573px;
+        height: 106px;
+    }
+
+    .welcome p {
+        width: 416px;
+        height: 44px;
+        margin-top: 20px;
+    }
+
+    .welcome-img {
+        position: absolute;
+        width: 823px;
+        height: 626px;
+        transform: translate(-100px, -100px);
+        object-fit: contain;
+    }
+
+    .lenta {
+        position: absolute;
+        z-index: -1;
+        height: 600px;
+        transform: translateY(-80px);
+    }
+
+
+    .make-dosky {
+        display: flex;
+        width: 226px;
+        height: 58px;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        border-radius: 60px;
+        background-color: #4A238C;
+        margin-top: 40px;
+        border: 1px solid #4A238C;
+        color: #FFFFFF;
+    }
+
+    .doska-div {
+        width: 60px;
+        height: 58px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 40px;
+        border: 1px solid #4A238C;
+        transform: translateX(28px);
+    }
+
+    .make-dosky img {
+        width: 24.88px;
+        height: 31.41px;
+    }
+
+    .make-dosky:hover {
+        background-color: #FFFFFF;
+        transition: 0.5s;
+        color: #4A238C;
+    }
+
+    .make-dosky:hover img {
+        transition: 0.5s;
+    }
+
+    .prazdnik {
+        width: 60px;
+        height: 58px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 40px;
+        border: 1px solid #4A238C;
+        transform: translateX(27px);
+    }
+
+    #F1 {
+        display: flex;
+        margin-top: 250px;
+        flex-wrap: wrap;
+    }
+
+    .F1-conteiner {
+        display: flex;
+        margin-top: 250px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .F1-content {
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+        justify-content: space-between;
+    }
+
+    .F1-card {
+        display: flex;
+        width: 340px;
+        height: 146px;
+        border-radius: 20px;
+        background-color: #FFFFFF;
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    .F1-card img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .shabloni {
+        display: flex;
+        margin-top: 450px;
+        flex-direction: column;
+    }
+
+    .shabloni-conteiner {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .orange {
+        width: 115px;
+        height: 80px;
+        position: absolute;
+        transform: translate(-50px, 270px) rotate(3.59deg);
+    }
+
+    .blue {
+        width: 125.09px;
+        height: 53.85px;
+        position: absolute;
+        transform: translate(1180px, 100px);
+    }
+
+    .shabloni h2 {
+        margin-bottom: 50px;
+    }
+
+    footer {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 200px;
+    }
+
+    footer p2 {
+        color: #4A238C;
+    }
+
+    /* page login */
+    .Login {
+        display: flex;
+        margin-top: 120px;
+        width: 100%;
+        height: 348px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Login h1 {
+        display: flex;
+        width: 573px;
+        height: 88px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .Login a {
+        display: flex;
+        width: 335px;
+        height: 58px;
+        border: 1px solid #4A238C;
+        justify-content: space-between;
+        border-radius: 60px;
+        align-items: center;
+        text-decoration: none;
+        margin-bottom: 20px;
+    }
+
+    .Login p {
+        transform: translateX(20px);
+        color: #4A238C;
+    }
+
+    .Login img {
+        transform: translateX(-5px);
+    }
+
+    .Login a:hover {
+        background: #4A238C;
+        transition: 0.5s;
+        color: #FFFFFF;
+    }
+
+    .Login a:hover p {
+        color: #FFFFFF;
+    }
+
+    /* page dobavit doske */
+
+    .doska {
+        display: flex;
+        margin-top: 120px;
+        border: 1px solid #B5B1FF;
+        border-radius: 20px;
+    }
+
+    .doska-conteiner {
+        display: flex;
+        width: 1160px;
+        margin: 40px;
+        flex-direction: column;
+    }
+
+    .doska-conteiner h3 {
+        margin-bottom: 30px;
+    }
+
+    .doska-conteiner p {
+        color: #4A238C;
+    }
+
+    .doska-conteiner input {
+        display: flex;
+        color: #4A238C;
+        width: 100%;
+        height: 38px;
+        border: 1px solid #B5B1FF;
+        padding-left: 15px;
+        border-radius: 60px;
+        outline: none;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 1439.9px) {
+    h1 {
+        font-size: 28px;
+        font-family: 'Nunito';
+        font-style: Bold;
+        line-height: 110%;
+        font-weight: 700;
+        color: #4A238C;
+    }
+
+    h2 {
+        font-size: 24px;
+        font-family: 'Nunito';
+        font-style: Bold;
+        line-height: 110%;
+        font-weight: 700;
+        color: #4A238C;
+    }
+
+    h3 {
+        font-size: 20px;
+        font-family: 'Nunito';
+        font-style: Bold;
+        line-height: 100%;
+        font-weight: 700;
+        color: #4A238C;
+    }
+
+    p {
+        font-size: 15px;
+        font-family: 'Nunito';
+        font-style: medium;
+        line-height: 150%;
+        font-weight: 500;
+        color: #4B4B4B;
+    }
+
+    p2 {
+        font-size: 16px;
+        font-family: 'Nunito';
+        font-style: SemiBold;
+        line-height: 100%;
+        font-weight: 600;
+    }
+
+    .oblaka {
+        display: flex;
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+        height: 115px;
+        object-fit: cover;
+    }
+
+    .desktop-header {
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    .wrap {
+        display: flex;
+        width: 335px;
+        height: 50px;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .wrap img {
+        display: flex;
+        height: 23px;
+        width: 95px;
+    }
+
+    .wrap a {
+        text-decoration: none;
+    }
+
+    .F1 {
+        display: none;
+        align-items: center;
+        color: #4A238C;
+    }
+
+    .F1 img {
+        width: 24px;
+        height: 24px;
+        margin-right: 5px;
+    }
+
+    .F1 p {
+        color: #4A238C;
+    }
+
+    .sgn-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 140px;
+        height: 50px;
+        background-color: #FCFCFB;
+        border-radius: 60px;
+        margin-left: 30px;
+        color: black;
+    }
+
+    .sgn-btn:hover {
+        background-color: #4A238C;
+        color: #FFFFFF;
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .conteiner-content {
+        display: flex;
+        width: 335px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .welcome {
+        display: flex;
+        margin-top: 150px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 335px;
+    }
+
+    .welcome h1 {
+        width: 335px;
+        height: 62px;
+    }
+
+    .welcome p {
+        width: 335px;
+        height: 69px;
+        margin-top: 20px;
+    }
+
+    .welcome-img {
+        position: absolute;
+        width: 335px;
+        height: 377.3px;
+        object-fit: contain;
+        transform: translateX(-15px);
+        margin-top: 60px;
+    }
+
+    .lenta {
+        position: absolute;
+        z-index: -1;
+        transform: translateY(100px);
+        width: 335px;
+    }
+
+    .make-dosky {
+        display: flex;
+        width: 335px;
+        height: 58px;
+        text-decoration: none;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 60px;
+        background-color: #4A238C;
+        margin-top: 40px;
+        border: 1px solid #4A238C;
+        color: #FFFFFF;
+    }
+
+    .make-dosky p2 {
+        transform: translateX(50px);
+    }
+
+    .doska-div {
+        width: 60px;
+        height: 58px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 40px;
+        border: 1px solid #4A238C;
+        transform: translateX(1px);
+    }
+
+    .make-dosky img {
+        width: 24.88px;
+        height: 31.41px;
+    }
+
+    .make-dosky:hover {
+        background-color: #FFFFFF;
+        transition: 0.5s;
+        color: #4A238C;
+    }
+
+    .prazdnik {
+        width: 60px;
+        height: 58px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 40px;
+        border: 1px solid #4A238C;
+        transform: translateX(27px);
+    }
+
+    #F1 {
+        display: flex;
+        margin-top: 250px;
+        flex-wrap: wrap;
+    }
+
+    .F1-bg {
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        z-index: -1;
+        height: 1400px;
+        object-fit: cover;
+    }
+
+    .F1-conteiner {
+        display: flex;
+        margin-top: 250px;
+        flex-direction: column;
+        width: 335px;
+    }
+
+    .F1-content {
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .F1-card {
+        display: flex;
+        width: 340px;
+        height: 146px;
+        border-radius: 20px;
+        background-color: #FFFFFF;
+        padding: 30px;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .F1-card img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .shabloni {
+        display: flex;
+        margin-top: 450px;
+        flex-direction: column;
+        width: 335px;
+    }
+
+    .shabloni-conteiner {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .orange {
+        width: 115px;
+        height: 80px;
+        position: absolute;
+        transform: translate(-20px, 980px) rotate(3.59deg);
+    }
+
+    .blue {
+        display: flex;
+        width: 125.09px;
+        height: 53.85px;
+        position: absolute;
+        transform: translate(230px, 100px);
+    }
+
+
+    .shabloni-conteiner img {
+        margin-top: 20px;
+    }
+
+    .shabloni h2 {
+        margin-bottom: 50px;
+    }
+
+    footer {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 150px;
+    }
+
+    footer p2 {
+        color: #4A238C;
+    }
+
+    /* page login */
+    .Login {
+        display: flex;
+        margin-top: 120px;
+        width: 100%;
+        height: 348px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Login h1 {
+        display: flex;
+        width: 303px;
+        height: 56px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .Login a {
+        display: flex;
+        width: 335px;
+        height: 58px;
+        border: 1px solid #4A238C;
+        justify-content: space-between;
+        border-radius: 60px;
+        align-items: center;
+        text-decoration: none;
+        margin-bottom: 20px;
+    }
+
+    .Login p {
+        transform: translateX(20px);
+        color: #4A238C;
+    }
+
+    .Login img {
+        transform: translateX(-5px);
+    }
+
+    .Login a:hover {
+        background: #4A238C;
+        transition: 0.5s;
+        color: #FFFFFF;
+    }
+
+    .Login a:hover p {
+        color: #FFFFFF;
+    }
+}
